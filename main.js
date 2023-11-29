@@ -27,13 +27,13 @@ function uploadBackground() {
 
 }
 
-function uploadGreenCar() {     
+function uploadgreencar() {     
 	ctx.drawImage(greencarImgTag, greencarX, greencarY, greencarWidth, greencarHeight);
 
 }
 
 
-window.addEventListener("keydowm", myKeyDown);
+window.addEventListener("keydown", myKeyDown);
 
 function myKeyDown(e)
 {
